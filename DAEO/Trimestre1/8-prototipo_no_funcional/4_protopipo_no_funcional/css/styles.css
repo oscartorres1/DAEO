@@ -12,6 +12,21 @@
 .titulo{
     height: 70px;
 }
+.color-azul{
+    background:#4fa8fb;
+}
+.color-negro{
+    background: #0c181c;
+}
+.color-verde{
+    background: #00c6ab;
+}
+.color-gris{
+    background: #808080;
+}
+.color-blanco{
+    background: #FFFFFF;
+}
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------II. LAYOUT: MAQUETACION WEB---------------------- */
 /* ----------------------------------ESCRITORIO Y PORTATIL------------------------- */
@@ -33,10 +48,18 @@ nav{
     height: 100%;
     float: left;
 }
+.logo img{
+    width: 100%;
+    height: 100%;
+}
 /* menu */
 .menu{   
     width: 65%;
     height: 100%;
+    /* background: blue; */
+    /* background: rgb(0,0,225); */
+    background: #759eff;
+    
     float: left;
 }
 /* ingreso */
@@ -44,6 +67,7 @@ nav{
     width: 15%;
     height: 100%;
     float: left;
+    background: #525558;
 }
 /* Encabezado y Secciones */
 header, section{
